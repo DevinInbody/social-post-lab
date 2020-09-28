@@ -6,7 +6,7 @@ import { Post } from './../interfaces/interfaces';
   styleUrls: ['./post.component.css'],
 })
 export class PostComponent implements OnInit {
-  @Input() post: 'post';
+  @Input() post: Post;
   @Output() deleted = new EventEmitter();
 
   constructor() {}
