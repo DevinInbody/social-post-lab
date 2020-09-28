@@ -1,0 +1,14 @@
+<app-post-form (submitted)="handleSubmit($event)" *ngIf="show"></app-post-form>
+<body>
+  <div class="mainContainer">
+    <h1 class="siteTitle">My Thoughts</h1>
+    <button class="NewThoughtButton" (click)="showForm()">New Thought</button>
+    <div class="fullContainer">
+      <app-post
+        *ngFor="let post of posts; index as i"
+        [post]="post"
+        (deleted)="handleDelete(i)"
+      ></app-post>
+    </div>
+  </div>
+</body>

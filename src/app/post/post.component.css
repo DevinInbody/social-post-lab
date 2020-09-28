@@ -1,0 +1,18 @@
+.feedContainer {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 80px;
+  border-bottom: solid 1px #f3f1f7;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedItem {
+  display: flex;
+  flex-direction: column;
+}
+.titleContainer {
+  font-size: 24px;
+}
+.thoughtContainer {
+}

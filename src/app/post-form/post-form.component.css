@@ -1,0 +1,12 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+}
+/* .component {
+}
+#titleBox {
+}
+#thoughtBox {
+}
+.addPostButton {
+} */
