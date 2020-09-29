@@ -1,12 +1,66 @@
 .postContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
-/* .component {
+
+.postContainerOverlay {
+  width: 100%;
+  height: 200vh;
+  position: absolute;
+  background-color: rgba(110, 118, 125, 0.4);
+  top: 0;
+  left: 0%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.postFormContainer {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  background-color: #b1ddea;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.component {
+  color: rgb(3, 169, 244);
+  margin-left: 10px;
 }
 #titleBox {
+  width: 90%;
+  height: 10%;
+  margin-left: inherit;
+  margin-right: inherit;
+  border: solid 1px #f3f1f7;
 }
 #thoughtBox {
+  width: 90%;
+  height: 150px;
+  margin-left: inherit;
+  margin-right: inherit;
+  border: solid 1px #f3f1f7;
 }
 .addPostButton {
-} */
+  width: 100%;
+  margin-top: 10%;
+  background-color: white;
+  border: solid 1px #f3f1f7;
+}
